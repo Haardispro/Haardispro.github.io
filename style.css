@@ -73,15 +73,53 @@ body{
     color: white;
     padding: 5px 10px;
 }
-
-@media all and (max-width: 600px){
+.hamburger{
+    display: none;
+}
+@media all and (max-width: 700px){
     .navigation{
         display: none;
     }
+    .hamburger{
+        color: white;
+        display: block;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        background-color: #1e1e1e;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgb(160, 156, 156);
+    }
+    .hamburger a i{
+        font-size: 30px;
+        color: white;
+    }
+    .hamburger #myLinks{
+        display: none;
+        font-family: 'Titillium Web';
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        background-color: #1e1e1e;
+        float: left;
+    }
+    .hamburger #myLinks a{
+        text-decoration: none;
+    }
+    
+    .hamburger a {
+        display: block;
+        color: white;
+        padding: 10px 20px;
+    }
+    
     .heading{
         transform: translateY(0%);
-        font-size: 40px;
+        font-size: 35px;
     }
+    
 }
 @media all and (max-width: 1200px){
     .heading{
