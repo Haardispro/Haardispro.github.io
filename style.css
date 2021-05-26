@@ -7,7 +7,7 @@
     background-color: black;
     color: white;
 }
-body{
+html{
     margin-top: 0%;
     background: url(backgroundf.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
