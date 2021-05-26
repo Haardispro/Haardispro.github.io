@@ -1,236 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-/*
-body,
-html{
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
 }
-*/
-html {
-    scroll-behavior: smooth;
-    
-}
-div{
-    text-align: center;
-}
-h2{
-    margin-top: 150px;
-    font-weight: 100;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+::selection{
+    background-color: black;
     color: white;
-    margin-left: 10px;
-    
 }
-nav{
-    text-align: center;
-    background: #1e1e1e;
-    border-radius: 100px;
-}
-nav ul li{
-    float: left;
-    list-style: none;
-    font-family: 'Poppins';
-    color: white;
-    padding: 5px 10px;
-    font-size: 20px;
-    padding-bottom: 15px;
-    font-weight: 1000;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    
-    transition-delay:text-decoration 1s;
-}
-nav ul li a:hover{
-    color: black;
-      
-}
-nav ul{
-    overflow: auto;
-}
-nav ul .right{
-    background-color: transparent;
-    float: right;
-    color: white;
-    padding: 10px 20px;
-    padding-top: 20px;
-    font-weight: 900;
-}
-
 body{
     margin-top: 0%;
-    background: url(background2.jpg) no-repeat center center fixed;
+    background: url(backgroundf.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    
+    background-size: cover
 }
 
-button{
-    outline: none;
+.navigation{
     margin-top: 10px;
-    margin-left: 5px;
-    font-size: 20px;
-    font-family: 'Poppins';
-    border-radius: 100px;
-    font-weight: 900;
-    background-color: transparent;
-    color: white;
-    border-style: solid;
-    border-color: transparent;
-}
-button:hover{
-    color: black;
-    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(160, 156, 156);
 }
 
-
-.theme{
-    position: absolute;
-    top: 100px;
-    right: 10px;
-    margin-left: 5px;
-    font-size: 20px;
-    font-family: 'Poppins';
-    border-radius: 100px;
-    font-weight: 900;
-    background-color: white;
-    color: black;
-    float: right;
-    outline:none
-}
-.theme:hover{
-    background-color: #EEEADE;
-}
-.about{
-    padding-top: 275px;
-}
-.python{
-    display: block;
-    width: 10%;
-    position: absolute;
-    right: 100px;
-    top: 1250px;
-    border-radius: 14px; 
-         
-}
-.js{
-    display: block;
-    width: 10%;
-    position: absolute;
-    right: 100px;
-    top: 1450px;
-    border-radius: 14px; 
-      
-}
-.htmli{
-    display: block;
-    width: 10%;
-    position: absolute;
-    right: 1200px;
-    top: 1450px;
-    border-radius: 14px; 
-}
-.cssi{
-    display: block;
-    width: 10%;
-    position: absolute;
-    right: 1200px;
-    top: 1250px;
-    border-radius: 14px; 
-}
-
-
-::-webkit-scrollbar{
-    display: none;
-}
-/*
-::-webkit-scrollbar-thumb{
-    background: white;
-    border-radius: 14px;
-}
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px black;
-    border-radius: 10px;
-}
-*/
-.backtotop{
-    position: absolute;
-    top: 1565px;
-    left: 400px;
-    font-size: 20px;
-    font-family: 'Poppins';
-    border-radius: 100px;
-    font-weight: 900;
-    background-color: transparent;
-    color: white;
-    border-style: solid;
-    border-color: white;
-    outline:none
-}
-.backtotop:hover{
-    color: black;
-    background-color: grey;
-}
-.contact{
-    border-radius: 100px;
-    margin-top: 400px;
-    background-color: black;
-    padding-top: 100px;
-}
-.contact .reddit{
-    outline: none;
-    position: absolute;
-    left: 900px;
-    top: 2060px;
-    color: white;
-    background-color: black;
-
-}
-.contact .reddit:hover{
-    background-color: grey;
-    color: whitesmoke;
-}
-.contact .reddit a{
-    color: white;
-    text-decoration: none;
-}
-
-.contact button{
-    outline: none;
-    position: absolute;
-    left: 500px;
-    top: 2060px;
-    background-color: black;
-}
-.contact button:hover{
-    background-color: grey;
-    color: whitesmoke;
-}
-.contact button a{
+.navigation a{
     
     color: white;
+    float: left;
+    padding: 10px 20px;
     text-decoration: none;
+    font-family: 'Titillium Web';
+    font-size: 25px;
 }
-.contact img{
-    width: 5%;
+.navigation button{
+    outline: none;
+    background-color: transparent;
+    border-style: none;
+    
 }
-.contact .gm{
-    position: absolute;
-    left: 400px;
-    top: 2050px
+.navigation a:hover{
+    text-decoration: 2px underline;
 }
-.contact .re{
-    position: absolute;
-    left: 800px;
-    top: 2050px;
+.heading{
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-size: 50px;
+    transform: translateY(20%);
+    text-shadow: 2px 2px 5px rgb(128, 126, 126);
 }
-.contact .Top{
-    position: absolute;
-    left: 1400px;
-    top: 2054px;
+.heading p{
+    font-weight: 900;
 }
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.heading button{
+    border-style: none;
+    background-color: black;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(128, 126, 126);
+}
+.heading button a{
+    font-family: 'Titillium Web';
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+@media all and (max-width: 600px){
+    .navigation{
+        display: none;
+    }
+    .heading{
+        transform: translateY(0%);
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 1200px){
+    .heading{
+        transform: translateY(5%);
+    }
+}
+
