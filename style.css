@@ -9,7 +9,7 @@
 }
 html{
     margin-top: 0%;
-    background: url(backgroundf.jpg) no-repeat center center fixed;
+    background: url(background2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@ html{
     justify-content: center;
     background-color: #1e1e1e;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgb(160, 156, 156);
+    box-shadow: 3px 3px 3px rgb(70, 66, 66);
 }
 
 .navigation a{
@@ -50,7 +50,7 @@ html{
     font-family: 'Titillium Web';
     font-size: 50px;
     transform: translateY(20%);
-    text-shadow: 2px 2px 5px rgb(128, 126, 126);
+    text-shadow: 1px 1px 3px rgb(128, 126, 126);
 }
 .heading p{
     font-weight: 900;
@@ -90,7 +90,7 @@ html{
         position: relative;
         background-color: #1e1e1e;
         border-radius: 5px;
-        box-shadow: 5px 5px 5px rgb(160, 156, 156);
+        box-shadow: 3px 3px 3px rgb(70, 66, 66);
     }
     .hamburger a i{
         font-size: 30px;
