@@ -48,6 +48,7 @@ html{
 .heading{
     text-align: center;
     font-family: 'Titillium Web';
+    font-weight: 900;
     font-size: 50px;
     transform: translateY(20%);
     text-shadow: 1px 1px 3px rgb(128, 126, 126);
