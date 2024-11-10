@@ -1,130 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
-*{
-    margin: 0%;
-    padding: 0%;
-}
-::selection{
-    background-color: black;
-    color: white;
-}
-html{
-    margin-top: 0%;
-    background: url(background2.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
+body{
+  font-family: 'Agave', sans-serif;
+  margin: 15pt; 
+  min-height: 100vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #fbf1c7;
+  background-color: #282828;
 }
 
-.navigation{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: #1e1e1e;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px rgb(70, 66, 66);
+img{
+  width: 200px;
+  height: 200px;
 }
 
-.navigation a{
-    
-    color: white;
-    float: left;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-family: 'Titillium Web';
-    font-size: 25px;
+figcaption{
+  text-align: center;
 }
-.navigation button{
-    outline: none;
-    background-color: transparent;
-    border-style: none;
-    
-}
-.navigation a:hover{
-    text-decoration: 2px underline;
+.main{
+  display: flex;
+  justify-content: center;
 }
 .heading{
-    text-align: center;
-    font-family: 'Titillium Web';
-    font-weight: 900;
-    font-size: 50px;
-    transform: translateY(20%);
-    text-shadow: 1px 1px 3px rgb(128, 126, 126);
+  display: flex;
+  justify-content: center;
 }
-.heading p{
-    font-weight: 900;
+.intro{
+  display: flex;
+  justify-content: center;
 }
-.heading a{
-    text-decoration: none;
-    color: black;
+.my_pic{
+  width: min-content;
 }
-.heading button{
-    border-style: none;
-    background-color: black;
-    outline: none;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(128, 126, 126);
+.about_heading{
+  display: flex;
+  justify-content: center;
 }
-.heading button a{
-    font-family: 'Titillium Web';
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
+.about{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.hamburger{
-    display: none;
+.contact{
+  display: flex;
+  justify-content: center;
+  height: 55px;
 }
-@media all and (max-width: 700px){
-    .navigation{
-        display: none;
-    }
-    .hamburger{
-        color: white;
-        display: block;
-        overflow: hidden;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        position: relative;
-        background-color: #1e1e1e;
-        border-radius: 5px;
-        box-shadow: 3px 3px 3px rgb(70, 66, 66);
-    }
-    .hamburger a i{
-        font-size: 30px;
-        color: white;
-    }
-    .hamburger #myLinks{
-        display: none;
-        font-family: 'Titillium Web';
-        font-size: 20px;
-        font-weight: 900;
-        color: white;
-        background-color: #1e1e1e;
-        float: left;
-    }
-    .hamburger #myLinks a{
-        text-decoration: none;
-    }
-    
-    .hamburger a {
-        display: block;
-        color: white;
-        padding: 10px 20px;
-    }
-    
-    .heading{
-        transform: translateY(0%);
-        font-size: 35px;
-    }
-    
+.links{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  
 }
-@media all and (max-width: 1200px){
-    .heading{
-        transform: translateY(5%);
-    }
+.blog_heading{
+  display: flex;
+  justify-content: center;
+}
+.blogs{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: #b637ff;
+  padding: 10px;
+  font-size: large; 
+}
+footer{
+  min-height: 50px;
+  text-align: center;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex:1;
+}
