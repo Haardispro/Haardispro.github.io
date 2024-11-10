@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Agave;
+  src: url("Agave-Regular.woff") format("woff");
+  src: url("Agave-Regular.ttf") format("ttf"); 
+}
 body{
   font-family: 'Agave', sans-serif;
   margin: 15pt; 
